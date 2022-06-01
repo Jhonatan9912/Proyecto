@@ -1,0 +1,356 @@
+.body10{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family:"vogue.ttf";
+}
+
+.nav_list{
+    padding-left: 5px !important;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 6px 10px;
+}
+.sidebar .logo_content .logo{
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+.logo_content .logo .log_name{
+    font-size: 37px;
+    font-weight: 600;
+    color:orange;
+}
+.logo21{
+    width: 40px;
+    height: 40px;
+}
+.hr{
+    height: 200px;
+    background-color: red;
+}
+.sidebar #btn{
+    position: absolute;
+    color: white;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px !important;
+    list-style: none;
+    line-height: 50px;
+}
+.sidebar ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+.sidebar ul li a:hover{
+    color: white;
+    background-color: orange;
+}
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 30px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: left;
+}
+.sidebar .contenido_perfil{
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+.sidebar .contenido_perfil .perfiles{
+    position: relative;
+    padding: 10px 6px;
+    height: 80px;
+    background-color:green;
+}
+.perfiles_content .perfiles .detalles_perfil{
+    display: flex;
+    align-items: center;
+}
+.perfiles .detalles_perfil img{
+    height: 55px;
+    width: 55px;
+    object-fit:cover;
+    border-radius: 30px;
+    display: flex;
+    float: left;
+
+}
+.perfiles .detalles_perfil .Nombre_trabajo{
+    margin-left: 10px;
+}
+.perfiles .detalles_perfil .Nombre{
+font-size: 15px;
+font-weight: 400;
+}
+.perfiles .detalles_perfil .trabajo{
+    font-size: 12px;
+}
+.perfiles #salir{
+    position: absolute;
+    left: 88%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    min-width: 50px;
+    line-height:50px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.home_content{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+}
+.home_content .texto{
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+}
+.h2{
+    font-size: small;
+    font-family:"vogue.ttf";
+    text-align: center !important;
+}
+.ul{
+    background-color: orange;
+    text-align: center !important;
+}
+.logo{
+    width: 50px;
+}
+.table{
+    margin-left: 30px;
+    max-width: 100%;
+    margin-right: 80px;
+}
+.titleasig{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+thead{
+    background-color:#9CEF4A;
+}
+
+.input{
+    width: 220px;
+    margin: 5px;
+}
+.dvgen{
+    margin-left: 40px;
+    margin-right: 70px;
+}
+.botones{
+    justify-content: space-between;
+    display: flex;
+
+}
+.table5{
+    margin: 30px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.input1{
+    width: 300px;
+    margin-top: 10px;
+}
+.bottonsus{
+    width: 70px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50PX;
+}
+.tituloact{
+    text-align: center;
+    background-color: blue;
+}
+.tabla03{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.lineas{
+    border: 1px solid black;
+}
+
+.body11{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100%;
+}
+.txt{
+    text-align: center !important;
+}
+.celdas{
+    width: 108px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.celdas1{
+    width: 260px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.celdas2{
+    width: 50px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.celdas3{
+    width: 350px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.celdas4{
+    width: 168vh;
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.div1{
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+.div2{
+    margin-right: 10px;
+}
+.hr4{
+    margin-top: 60px;
+}
+.fieldset{
+background-color: aliceblue;
+border-radius: 10px;
+width: 95%;
+border: 1px solid black;
+margin-left: 30px;
+}
+.legend{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 35px;
+    text-align: center;
+}
+.H2DET{
+    text-align: center;
+    background-color: green;
+}
+.celdas3{
+    width: 120px;
+}
+.div4{
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.div5{
+    margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.registro{
+    display: flex;
+    justify-content: space-between;
+}
+.celdas5{
+    width: 220px;
+    height:25px;
+    margin-bottom: 10px;
+}
+.datos{
+    text-align: justify;
+}
+.H2DET1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.celdas6{
+    width: 160vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:10px;
+    height: 80px;
+}
+.fechas{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.documentos1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px ;
+}
+
+.serial{
+    background-color: aliceblue;
+}
+.enviar{
+    background-color: green;
+    width: 100px;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.restablecer{
+    background-color: red;
+    width: 130px;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.entrega{
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding-top: 10px;
+    text-align: center;
+}
+.retiro{
+    width: 40%;
+    float: left;
+}
+.acerca{
+    width: 430px;
+}

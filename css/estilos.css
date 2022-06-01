@@ -1,0 +1,471 @@
+
+.body{
+    background-color: #050219;
+}
+@font-face {
+    font-family:"Raleway-Medium.ttf";
+    src: url(../Fonts/Raleway-Medium.ttf);
+}
+
+.divg{
+    font-family:"vogue.ttf";
+    background-color: black;
+    font-size: 20px;
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.dropdown-menu{
+    background-color: red;
+}
+
+.nav-link:hover{
+    color: #84F513 !important
+
+
+}
+.nav-link1:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: #84F513 !important}
+
+.carousel-inner{
+    width: 215vh !important;
+    height: 65vh !important;
+}
+.footer{
+    background-color: gray;
+    margin: 20px;
+}
+
+.logo1{
+    width: 250px;
+    height: 200px;
+    padding-left: 40px;
+}
+.titule{
+    text-align : center;
+    margin: 10px;
+    color: white;
+    font-family:"vogue.ttf";
+}
+
+.form-label{
+    color: white !important;
+    font-family:"vogue.ttf";
+}
+
+.video1{
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+
+}
+
+.fw-bold{
+    margin: 20px;
+}
+
+.d-grid{
+    background-color: #1A7D12;
+}
+.botted{
+    background-color: #1A7D12 !important;
+}
+
+.hr{
+    height: 4px !important;
+    background-color: green;
+}
+
+.foot{
+    color: white !important;
+    text-decoration: none;
+}
+
+.reserv{
+    color: black;
+}
+.acerca{
+    width: 240vh;
+    height:132vh;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.acercae{
+    color: black;
+    position: absolute;
+    z-index: 1;
+    align-content: center;
+    padding-left: 144vh;
+    padding-top: 40vh;
+    padding-right: 50px;
+    font-family:"vogue.ttf";
+    text-align: justify;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.separador-line{
+    width: 90px;
+    height: 3px;
+    background-color: rgb(14, 139, 255);
+}
+
+.invact{
+    color: white;
+    text-align: center;
+    font-family:"vogue.ttf";
+    padding: 10px;
+}
+
+.p1{
+    margin-left: 40px;
+    color: white;
+    font-family:"vogue.ttf";
+}
+
+.card-body{
+    width: 276px;
+    height: 30px;
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.card1{
+    padding: 5px;
+    width: 150vh;
+    height: 50vh;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+   
+}
+.card2{
+    padding: 5px;
+    width: 150vh;
+    height: 50vh;
+    float: left;
+    margin-right: 30px;
+}
+.card3{
+    padding: 5px;
+    width: 150vh;
+    height: 50vh;
+    float: left;
+    margin-right: 30px;
+}
+.card4{
+    padding: 5px;
+    width: 150vh;
+    height: 50vh;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.ref{
+    display: flex;
+    padding-right: 10px;
+     
+}
+
+.imges1{
+    padding: 20px;
+}
+.tab{
+    text-align: center;
+    color: white;
+    font-family:"vogue.ttf";
+    padding: 20px;
+}
+
+.contac{
+    width: 218vh;
+height: 300px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: #C02425;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.form1{
+    color: black;
+    font-family:"vogue.ttf";
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    visibility: 10px;
+}
+
+.inp{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.inpt{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 500px;
+}
+
+#boton{
+    background-color: #1A7D12;
+    color: white;
+    padding: 5px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+.contacte{
+    width: 410px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.service{
+    font-family:"vogue.ttf";
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.dropdown-menu{
+    background-color: black !important;
+    
+}
+
+.dropdown-divider{
+    height: 10px;
+    color: white !important;
+}
+
+.pla1{
+    height: 300px;
+    width: 1349px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pla2{
+    display: flex;
+    position: absolute;
+    padding-left: 150vh;
+    padding-top: 100px;
+    font-size: 250%;
+    color: #84F513;
+    font-family:"vogue.ttf";
+    
+}
+
+.pla3{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pla4{
+    color: white;
+    text-align: justify;
+    padding: 50px;
+    font-size: 200%;
+    font-family:"vogue.ttf";
+}
+
+.pla5{
+    color: #2F8DF7;
+    text-align: center;
+    font-family:"vogue.ttf";
+}
+
+.pla6{
+    color: white;
+    text-align: justify;
+    font-family:"vogue.ttf";
+    font-size: 110%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.plafoto{
+    width: 700px;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    padding-right: 30px;
+    padding-left: 20px;
+    border-radius: 70px;
+
+}
+.pla9{
+    display: flex;
+    position: absolute;
+    padding-left: 50vh;
+    padding-top: 100px;
+    font-size: 250%;
+    color: #84F513;
+    font-family:"vogue.ttf";
+    
+}
+
+.plafoto1{
+    width: 700px;
+    height: 498px;
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    padding-right: 30px;
+    padding-left: 20px;
+    border-radius: 70px;
+}
+.plafoto2{
+    width: 700px;
+    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    padding-right: 30px;
+    padding-left: 20px;
+    border-radius: 70px;
+}
+.plafoto3{
+    width: 700px;
+    height: 320px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    padding-right: 30px;
+    padding-left: 20px;
+    border-radius: 70px;
+    display: flex;
+}
+
+.div1{
+    background-color: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 90vh;
+    height: 80vh;
+    margin-left: 30px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.dimg1{
+    width: 150px;
+    height: 100px;
+    background-color: #19C5DC;
+    border-radius: 80px;
+    
+}
+
+.h2p1{
+    background-color: wheat;
+    text-align: center;  
+    font-family:"vogue.ttf";
+}
+
+.po1{
+    color: white;
+    font-size: 180%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family:"vogue.ttf";
+}
+.po2{
+    color: white;
+    font-size: 150%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family:"vogue.ttf";
+}
+.po3{
+    color: white;
+    font-size: 130%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family:"vogue.ttf";
+}
+.po4{
+    color: white;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family:"vogue.ttf";
+}
+
+.int{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.lig{
+   padding-top: 10px;
+}
+.activos1{
+    min-height: 100vh !important;
+
+}
+.body10{
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.hr3{
+    width: 300px;
+}
+.log{
+    padding-left: 20px;
+    width: 200px;
+}
+.user1{
+    text-align: center;
+}
+.logo3{
+    width: 50px;
+    float: left;
+}
+.cerrar{
+    margin-top: 80px;
+}

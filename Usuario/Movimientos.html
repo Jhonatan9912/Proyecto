@@ -18,7 +18,7 @@
     <div class="logotip">
       <div class="logo_content">
         <div class="logo">
-          <div class="log_name">BIENVENIDO</div>
+          <b><div class="log_name">MOVIMIENTOS</div></b>
         </div>
         <hr class="hr">
       </div>
@@ -80,22 +80,38 @@
         <div class="dvgen">
           <fieldset>
             <legend>Datos Personales</legend>
-            Nombre: <input type="text" name="fname" placeholder="Digite su primer Nombre" required class="input">
-            Primer Apellido: <input type="text" name="fname" placeholder="Digite su primer Apellido" required
-              class="input">
-            Segundo Apellido: <input type="text" name="fname" placeholder="Digite su Segundo Apellido" required
-              class="input">
-            Tipo de Documento: <select name="Documento" class="input1" required>
-              <option value="Seleccione una opcion">Seleccione una opcion</option>
-              <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
-              <option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
-              <option value="Pasaporte">Pasaporte</option>
-            </select>
-            Numero de Documento: <input type="text" name="fname" placeholder="Digite su # de Documento" required
-              class="input">
-            <div>
-              Fecha de Retiro: <input type="date" name="bday" class="input"required>
-              Fecha de Retorno: <input type="date" name="bday" class="input"required>
+            <div class="retirogen">
+              <div class="retiro1">
+                <b><label for="fname" class="form-label"></label>Nombre:</b>
+                <input type="text" name="fname" placeholder="Digite su primer Nombre" required class="input" id="fname">
+                <b><label for="fname" class="form-label"></label>Primer Apellido:</b>
+                <input type="text" name="fape" placeholder="Digite su primer Apellido" required class="input" id="fape">
+                <b><label for="sape" class="form-label"></label>Segundo Apellido:</b>
+                <input type="text" name="fname" placeholder="Digite su Segundo Apellido" required class="input"
+                  id="sape">
+              </div>
+              <div class="retiro2">
+                <b><label for="iddocu" class="form-label"></label>Tipo de Documento:</b>
+                <select name="Documento" class="input" required id="iddocu">
+                  <option value="Seleccione una opcion">Seleccione una opcion</option>
+                  <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+                  <option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
+                  <option value="Pasaporte">Pasaporte</option>
+                </select>
+                <b><label for="ndocu" class="form-label"></label>Numero de Documento:</b>
+                <input type="text" name="fname" placeholder="Digite su # de Documento" required class="input"
+                  id="ndocu">
+                <div class="fechainput1">
+                  <div class="fechainput2">
+                    <b><label for="fr" class="form-label"></label>Fecha de retiro:</b><br>
+                    <input type="date" name="bday" class="" required id="fr"><br>
+                  </div>
+                  <div class="fechainput2">
+                    <b><label for="fre" class="form-label"></label>Fecha de devolucion:</b><br>
+                    <input type="date" name="bday" class="" required id="fre">
+                  </div>
+                </div>
+              </div>
             </div>
           </fieldset>
         </div>
@@ -103,7 +119,7 @@
           <fieldset>
             <legend>Datos de elementos</legend>
             <div>
-            <p>Seleccione el elemento a retirar</p>
+              <p>Seleccione el elemento a retirar</p>
               <table class="table">
                 <thead>
                   <tr>

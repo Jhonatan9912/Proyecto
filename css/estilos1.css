@@ -9,7 +9,10 @@
 .nav_list{
     padding-left: 5px !important;
 }
-
+.h1asi{
+    text-align: center;
+    font-family:"vogue.ttf";
+}
 .sidebar{
     position: fixed;
     top: 0;
@@ -29,9 +32,11 @@ background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fi
     align-items: center;
 }
 .logo_content .logo .log_name{
-    font-size: 37px;
-    font-weight: 600;
-    color:orange;
+    font-size: 30px;
+    color: #D5F5E3;
+    text-shadow: 10px 10px 10px black ;
+    padding-left: 10px;
+
 }
 .logo21{
     width: 40px;
@@ -153,22 +158,76 @@ font-weight: 400;
     width: 50px;
 }
 .table{
+     height: 100%;
+    width: 100%;
     margin-left: 30px;
-    max-width: 100%;
-    margin-right: 80px;
+}
+.tablagen3{
+    width: 95%;
 }
 .titleasig{
     text-align: center;
     font-size: xx-large;
-    padding-bottom: 30px;
+    font-family:"vogue.ttf";
 }
 thead{
     background-color:#9CEF4A;
 }
-
+.retirogen{
+    width: 100%;
+}
+.retiro1{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+ 
+}
+.retiro2{
+    width: 45%;
+    float: left;
+}
+.fechainput{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.fechainput1{
+    float: left;
+    width: 100%;
+}
+.fechainput2{
+    float: left;
+    width: 50%;
+}
+.fechainput3{
+    float: left;
+    width: 50%;
+}
 .input{
-    width: 220px;
-    margin: 5px;
+    width: 100%;
+}
+.inputs{
+    width: 95%;
+}
+.inputgen1{
+    margin-left: 30px;
+    width: 100%;
+    max-width: 100%;
+}
+.tablageneral2{
+    width: 100%;
+}
+.bottonsus{
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+    justify-content: right;
+}
+.inputgen2{
+    margin-right: 30px;
+    width: 100%;
+    max-width: 100%;
 }
 .dvgen{
     margin-left: 40px;
@@ -180,28 +239,22 @@ thead{
 
 }
 .table5{
-    margin: 30px;
-    font-size: larger;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
 }
 .input1{
-    width: 300px;
+    width: 210px;
     margin-top: 10px;
-}
-.bottonsus{
-    width: 70px;
-    float: right;
-    margin-top: 10px;
-    margin-right: 50PX;
 }
 .tituloact{
     text-align: center;
-    background-color: blue;
 }
 .tabla03{
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 10px;
+    width: 95%;
 }
 .lineas{
     border: 1px solid black;
@@ -215,6 +268,7 @@ thead{
 .txt{
     text-align: center !important;
 }
+
 .celdas{
     width: 108px;
     height: 20px;
@@ -250,7 +304,7 @@ thead{
     margin-right: 10px;
 }
 .hr4{
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .fieldset{
 background-color: aliceblue;
@@ -269,7 +323,8 @@ margin-left: 30px;
 }
 .H2DET{
     text-align: center;
-    background-color: green;
+    background-color: whitesmoke;
+    font-family:"vogue.ttf";
 }
 .celdas3{
     width: 120px;
@@ -279,10 +334,16 @@ margin-top: 30px;
 margin-left: 30px;
 margin-right: 30px;
 }
+.soligen{
+    width: 100%;
+}
 .div5{
     margin-top: 30px;
-margin-left: 30px;
-margin-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
 }
 .registro{
     display: flex;
@@ -293,25 +354,68 @@ margin-right: 30px;
     height:25px;
     margin-bottom: 10px;
 }
+.actuat1{
+    width: 100%;
+}
+.actuat2{
+    width: 50%;
+    margin-top: 10px;
+}
+.actuat3{
+    margin-right: 10px;
+}
 .datos{
     text-align: justify;
 }
 .H2DET1{
     text-align: center;
     margin-bottom: 10px;
+    width: 100%;
 }
 .celdas6{
-    width: 160vh;
+    width: 95%;
+    height: 60px !important;
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom:10px;
-    height: 80px;
+    margin-bottom: 10px;
+}
+.actuagen{
+    width: 100%;
+    display: flex;
+}
+.actuap1{
+    width: 50%;
+    padding:10px 10px 10px 10px;
+}
+.actuap2{
+    width: 50%;
+    padding:10px 10px 10px 10px;
 }
 .fechas{
     justify-content: space-between;
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
+}
+.Tablaretiro{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid black;
+}
+
+.borders{
+    border: 1px solid black;
+}
+.borders1{
+    border: 1px solid black;
+    text-align: center;
+}
+.tablageneral1{
+    width: 95% !important;
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
 .documentos1{
     display: flex;
@@ -326,26 +430,26 @@ margin-right: 30px;
 }
 .enviar{
     background-color: green;
-    width: 100px;
+    width: 170px;
     font-size: larger;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:"vogue.ttf";
 }
 .restablecer{
     background-color: red;
     width: 130px;
     font-size: larger;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:"vogue.ttf";
 }
 .entrega{
-    width: 45%;
-    float: left;
-    margin-right: 30px;
-    margin-left: 30px;
-    padding-left: 10px;
-    border: 5px solid black;
-    border-radius: 15px;
-    padding-top: 10px;
-    text-align: center;
+    background-color: red;
+
+}
+.movgen{
+    display: flex;
+}
+.txtent{
+    text-decoration: none;
+    color: black;
 }
 .retiro{
     width: 40%;
@@ -353,4 +457,156 @@ margin-right: 30px;
 }
 .acerca{
     width: 430px;
+}
+.form1{
+    margin: 30px 30px 30px 30px;
+    max-width: 100%;
+    font-family:"vogue.ttf";
+}
+.formulario1{
+    border: 1px solid black !important;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.cuadro{
+    width: 100%;
+}
+.cuadro1{
+    width: 100%;
+}
+.cuadrogen{
+    display: flex;
+   justify-content: space-between;
+   max-width: 100%;
+}
+.tablareg{
+    max-width: 100%;
+    width: 90%;
+}
+.tablareg2{
+    max-width:100%;
+    width: 35%;
+}
+.tablareg3{
+    max-width:100%;
+    width: 15%;
+    float: left;
+}
+.H2DU{
+    text-align: center;
+    font-family:"vogue.ttf";
+    background-color: #D5F5E3;
+}
+.hrdu{
+    border: 2px solid khaki; 
+    height: 2px !important; 
+    background-color: rgb(255, 240, 23);
+}
+
+.botongen{
+    display: flex;
+}
+.botonent{
+    max-width: 100%;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.firma1{
+    height:100px;
+}
+.documentos2{
+    display: flex;
+    justify-content: space-between;
+}
+.restablece{
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 120px;
+    max-width: 100%;
+    font-size: 20px;
+    background-color: red;
+    font-family:"vogue.ttf";
+    margin-left: 30px;
+}
+.send{
+    margin-right: 60px;
+    margin-top: 30px;
+    width: 120px;
+    max-width: 100%;
+    font-size: 20px;
+    background-color: green;
+    font-family:"vogue.ttf";
+}
+.intform{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.cartageneral{
+    border: 1px solid black !important;
+}
+.botonenvio{
+    border: 1px solid black !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.botonenvio:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 13px 20px black;
+}
+.tarjeta{
+    font-family:"vogue.ttf";
+    color: black !important;
+    text-shadow: 10px 10px 10px #373B44;
+}
+.tabla1{
+    max-width: 100%;
+    width: 100%;
+}
+  .contraseña{
+      width: 170px;
+      max-width: 100%;
+      margin-left: 30px;
+      height: 30px;
+      background-color: rgb(76, 156, 248);
+  }
+  .contraseña1{
+    width: 170px;
+    max-width: 100%;
+    margin-left: 30px;
+    height: 30px;
+    background-color: rgb(62, 170, 0);
+}
+.TABLACONTRA{
+    width: 95%;
+    max-width: 100%;
+    margin-right: 30px !important;
+}
+.imagenes1{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    float: left;
+}
+.album{
+float: left;
+}
+.imagregi{
+    height: 100%;
+    width: 100%;
+}
+.imagengen{
+    width: 100% !important;
+    height: 170px !important;
+}
+.creacion1{
+    float: left;
+    justify-content: center;
+    width: 40% !important;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-between;
 }

@@ -13,12 +13,12 @@
     <link rel="shortcut icon" href="../img/logo.png">
 </head>
 
-<body class="body10">
+<body class="body11">
     <div class="sidebar">
         <div class="logotip">
             <div class="logo_content">
                 <div class="logo">
-                    <div class="log_name">PRINCIPAL</div>
+                    <b><div class="log_name">REPORTES</div></b>
                 </div>
                 <hr class="hr">
             </div>
@@ -29,9 +29,9 @@
                     <span class="links_name">Gestor de Activos</span>
                 </a>
             </li>
-            <li><a href="Asignacion.html">
+            <li><a href="Registro.html">
                     <i class='bx bx-git-compare'></i>
-                    <span class="links_name">Asignaciones</span>
+                    <span class="links_name">Registro</span>
                 </a>
             </li>
             <li><a href="Reportes.html">
@@ -80,11 +80,231 @@
                 </div>
             </div>
         </header>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    <h1 class="mt-4">Reportes</h1><hr>
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-warning text-dark mb-4 cartageneral">
+                                <b><div class="card-body tarjeta">Descargar reporte de equipos instalados.</div></b>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link botonenvio" href="#"><button type="button" class="btn btn-success">Descargar</button></a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-success text-dark mb-4 cartageneral">
+                                <b><div class="card-body tarjeta">Descargar reporte de equipos en reserva.</div></b>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link botonenvio" href="#"><button type="button" class="btn btn-success">Descargar</button></a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-primary text-darke mb-4 cartageneral">
+                                <b><div class="card-body tarjeta">Descargar reporte de equipos en garantia.</div></b>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link botonenvio" href="#"><button type="button" class="btn btn-success">Descargar</button></a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-secondary text-dark mb-4 cartageneral">
+                                <b><div class="card-body tarjeta">Descargar reporte general del contrato.</div></b>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link botonenvio" href="#"><button type="button" class="btn btn-success">Descargar</button></a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-area me-1"></i>
+                                    Equipos Instalados
+                                </div>
+                                <div><img src="../img/grafico2.jpg" alt="" width="100%" height="30%"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-bar me-1"></i>
+                                    Equipos en garantia
+                                </div>
+                                <div><img src="../img/grafico2.jpg" alt="" width="100%" height="30%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            Tabla de Actas
+                        </div>
+                        <div class="card-body">
+                            <table id="datatablesSimple" class="tabla1">
+                                <thead>
+                                    <tr>
+                                        <th>Nombre Usuario</th>
+                                        <th>Cedula de Ciudadania</th>
+                                        <th>Tipo de Acta</th>
+                                        <th>Serial de equipo</th>
+                                        <th>Fecha de creacion</th>
+                                        <th>Creada por</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de usuario</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Dato de equipo</td>
+                                        <td>Fecha</td>
+                                        <td>Dato de Tecnico</td>
+                                        <td><button type="button" class="btn btn-outline-danger">Descargar Acta</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href=../css/estilos1.css>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../img/logo.png">
+</head>
+
+<body class="body12">
+    <div class="sidebar">
+        <div class="logotip">
+            <div class="logo_content">
+                <div class="logo">
+                    <b><div class="log_name">REGISTRAR</div></b>
+                </div>
+                <hr class="hr">
+            </div>
+        </div>
+        <ul class="nav_list">
+            <li><a href="Gestor de Inventario.html">
+                    <i class='bx bxl-xing'></i>
+                    <span class="links_name">Gestor de Activos</span>
+                </a>
+            </li>
+            <li><a href="Registro.html">
+                    <i class='bx bx-git-compare'></i>
+                    <span class="links_name">Registro</span>
+                </a>
+            </li>
+            <li><a href="Reportes.html">
+                    <i class='bx bxs-report'></i>
+                    <span class="links_name">Reportes</span>
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="contenido_perfil">
+            <div class="perfiles">
+                <div class="detalles_perfil">
+                    <img src="../img/login.png" alt="">
+                    <div class="Nombre_trabajo">
+                        <div class="Nombre">Jhonatan Mogollon Castillo</div>
+                        <div class="trabajo">Tecnico en sistemas</div>
+                    </div>
+                </div>
+                <a href="../index.html"><i class='bx bx-log-out' id="salir"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <header class="p-3 mb-3 border-bottom ul">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    </a>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <img src="../img/logo1.png" alt="" class="logo">
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input type="search" class="form-control" placeholder="Buscar" aria-label="Search">
+                    </form>
+
+                    <div class="dropdown text-end">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../img/login.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                            <li><a class="dropdown-item" href="../index.html">Cerrar Sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <h2 class="H2DET">REGISTRO DE USUARIO</h2>
+        <hr>
+        <form action="" method="post">
+            <fieldset class="fieldset">
+                <div class="div4">
+                    <div class="registro">
+                    </div>
+                    <div class="datos">
+                        <h2 class="H2DET1">Datos Personales</h2>
+                        <hr>
+                        <div class="cuadrogen">
+                            <div class="cuadro">
+                                <b><label for="pnombre" class="form-label">Primer Nombre:</label></b>
+                                <input type="text" name="fname" placeholder="" class="tablareg" id="pnombre" required>
+                                <b><label for="snombre" class="form-label">Segundo Nombre:</label></b>
+                                <input type="text" name="fname" placeholder="" class="tablareg" id="snombre" required>
+                                <b><label for="fapellido" class="form-label">Primer Apellido:</label></b>
+                                <input type="text" name="fapellido" placeholder="" class="tablareg" id="fapellido"
+                                    required>
+                                <b><label for="sapellido" class="form-label">Segundo Apellido:</label></b>
+                                <input type="text" name="fname" placeholder="" class="tablareg" id="sapellido" required>
+                                <b><label for="tdocumento" class="form-label">Tipo de Documento:</label></b>
+                                <select name="TDocumento" class="tablareg" required>
+                                    <option value="Seleccione una opcion">Seleccione una opcion</option>
+                                    <option value="Cedula de Ciudadania">C.C</option>
+                                    <option value="Cedula de Extranjeria">C.E</option>
+                                    <option value="Pasaporte">P.E</option>
+                                </select>
+                                <b><label for="ndocumento" class="form-label">Numero de Documento:</label></b>
+                                <input type="text" name="Cedula" placeholder="" class="tablareg" id="ndocumento"
+                                    required>
+                                <b><label for="celular" class="form-label">Numero de celular:</label></b>
+                                <input type="tel" name="Celular" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" class="tablareg"
+                                    placeholder="" id="celular" required><br>
+                                <b><label for="celularalt" class="form-label">Numero de celular
+                                        alternativo:</label></b>
+                                <input type="tel" name="Celular" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" class="tablareg"
+                                    placeholder="" id="celularalt" required>
+                            </div>
+                            <div class="cuadro1">
+                                <b><label for="correo" class="form-label">Correo Electronico</label></b>
+                                <input type="email" name="Correo Electronico" placeholder="" value="" class="tablareg"
+                                    id="correo" required><br>
+                                <b><label for="correoemp" class="form-label">Correo Electronico
+                                        Empresarial</label></b>
+                                <input type="email" name="Correo Electronico" placeholder="" value="" class="tablareg"
+                                    id="correoemp" required><br>
+                                <b><label for="cargo" class="form-label">Cargo:</label></b><br>
+                                <input type="text" name="cargo" placeholder="" required class="tablareg" id="cargo"
+                                    required><br>
+                                <b><label for="area" class="form-label">Area Asignada:</label></b>
+                                <input type="text" name="area" placeholder="" required class="tablareg" id="area" required><br><br>
+                                <b><label for="piso" class="form-label">Piso:</label></b>
+                                <input type="text" name="piso" placeholder="" required class="tablareg2" id="piso" required>
+                                <b><label for="modulo" class="form-label">Modulo:</label></b>
+                                <input type="text" name="modulo" placeholder="" required class="tablareg2" id="modulo" required><br>
+                                <b><label for="contrato" class="form-label">contrato Asignado:</label></b>
+                                <select name="Contrato" class="tablareg" required id="contrato">
+                                    <option value="Seleccione una opcion">Fijo</option>
+                                    <option value="Cedula de Ciudadania">Obra o labor</option>
+                                    <option value="Cedula de Extranjeria">Indefinido</option>
+                                </select><br><br>
+                                <div class="">
+                                    <div>
+                                        <b><label for="Ingreso" class="form-label">Fecha de Ingreso:</label></b>
+                                        <input type="date" name="bday" class="tablareg" id="ingreso" required>
+                                    </div>
+                                    <div>
+                                        <b><label for="Retiro" class="form-label">Fecha de Retiro:</label></b>
+                                        <input type="date" name="bday" class="tablareg" id="Retiro" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="documentos1">
+                            <div>
+                                <b><input type="submit" value="Enviar" class="enviar"></b>
+                            </div>
+                        </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

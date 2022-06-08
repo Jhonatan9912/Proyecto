@@ -1,19 +1,16 @@
-
-.body{
-    background-color: #050219;
-}
 @font-face {
     font-family:"Raleway-Medium.ttf";
     src: url(../Fonts/Raleway-Medium.ttf);
 }
-
+.body{
+    background-color: #EFF5EB;
+    font-family:"vogue.ttf";
+}
 .divg{
     font-family:"vogue.ttf";
     background-color: black;
     font-size: 20px;
-    
 }
-
 .logo{
     width: 80px;
     height: 80px;
@@ -21,7 +18,6 @@
 .dropdown-menu{
     background-color: red;
 }
-
 .nav-link:hover{
     color: #84F513 !important
 
@@ -32,36 +28,43 @@
     color: #84F513 !important}
 
 .carousel-inner{
-    width: 215vh !important;
+    width: 100% !important;
     height: 65vh !important;
 }
+.iniciarsesion{
+    background-image: url(../img/inicioses.jpg);
+    margin-left: 110px;
+    margin-right: 110px;
+    max-width: 100%;
+}
 .footer{
+    position: absolute;
     background-color: gray;
-    margin: 20px;
+    margin-top: 70px;
+    max-width: 100%;
 }
 
 .logo1{
     width: 250px;
     height: 200px;
     padding-left: 40px;
+    max-width: 100%;
+}
+.logo2{
+    max-width: 100%;
 }
 .titule{
     text-align : center;
-    margin: 10px;
-    color: white;
+    color: black;
     font-family:"vogue.ttf";
+    float: left;
+    background-color: red;
 }
-
-.form-label{
-    color: white !important;
-    font-family:"vogue.ttf";
-}
-
-.video1{
-    width: 600px;
-    height: 400px;
-    padding-left: 60px;
-
+.imagen{
+    width: 80vh;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 10px 30px 110px;
 }
 
 .fw-bold{
@@ -79,6 +82,22 @@
     height: 4px !important;
     background-color: green;
 }
+.hr1{
+    height: 2px !important;
+    background-color: blue;
+}
+.hr4{
+    margin-left: 40px;
+    background-color: rgb(231, 175, 21);
+    max-width: 40%;
+    height: 4px !important;
+}
+.boton1{
+    text-align: center;
+    background-color: #54aa1b;
+    border-radius: 10px;
+    border: 1px solid black;
+}
 
 .foot{
     color: white !important;
@@ -88,139 +107,197 @@
 .reserv{
     color: black;
 }
-.acerca{
-    width: 240vh;
-    height:132vh;
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    
-}
 
+.acerca{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.videogen{
+    position:relative;
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    margin: 10px auto;
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px black;
+    max-width: 100%;
+}
+.videogen1{
+    position:relative;
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    margin: 10px auto;
+    background-color: gainsboro;
+    box-shadow: 12px 12px 12px black;
+    max-width: 100%;
+}
+.p3{
+    font-size: 20px;
+    font-family:"vogue.ttf";
+    text-align: center;
+}
+.hr5{
+    width: 50% !important;
+    color: #1A7D12;
+    height: 4px !important;
+}
+.h2col{
+    text-align: center;
+    text-shadow: 0 0 8px rgb(17, 217, 243);
+    max-width: 100%;
+}
 .acercae{
+    font-size:15px;
     color: black;
     position: absolute;
-    z-index: 1;
-    align-content: center;
-    padding-left: 144vh;
-    padding-top: 40vh;
-    padding-right: 50px;
-    font-family:"vogue.ttf";
-    text-align: justify;
-    max-height: 100%;
+    justify-content: justify;
     max-width: 100%;
+    top: 5%;
+    left: 61%;
+    right: 5%;
+    transform: translate(-50% -50%);
 }
-
+.partes{
+    text-shadow: 0 0 5px rgb(104, 160, 21);
+}
 .separador-line{
     width: 90px;
     height: 3px;
     background-color: rgb(14, 139, 255);
 }
-
 .invact{
-    color: white;
+    color: black;
     text-align: center;
     font-family:"vogue.ttf";
     padding: 10px;
+    font-size: 40px;
+    text-shadow: 0 0 8px rgb(255, 204, 93);
 }
-
 .p1{
     margin-left: 40px;
-    color: white;
+    color: black;
     font-family:"vogue.ttf";
 }
-
+.parte1{
+    height: 4px !important;
+    background-color: aquamarine;
+    border: 1px solid blue;
+}
 .card-body{
-    width: 276px;
-    height: 30px;
+    max-width: 100%;
+    height: 80px;
     background: #FDC830;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family:"vogue.ttf";
+}
+.cards{
+    float: left;
     
-
-}
-
-.card1{
-    padding: 5px;
-    width: 150vh;
-    height: 50vh;
-    float: left;
-    margin-right: 30px;
+    max-width: 100%;
+    height: 100%;
+    margin-right: 5px;
     margin-left: 30px;
-   
+    width: 100%;
 }
-.card2{
-    padding: 5px;
-    width: 150vh;
-    height: 50vh;
-    float: left;
+.cardgen{
+    display: flex;
+    justify-content: space-between;
     margin-right: 30px;
 }
-.card3{
-    padding: 5px;
-    width: 150vh;
-    height: 50vh;
-    float: left;
-    margin-right: 30px;
-}
-.card4{
-    padding: 5px;
-    width: 150vh;
-    height: 50vh;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 20px;
+.logogen{
+    display: flex;
+    justify-content: space-between;
 }
 .ref{
     display: flex;
-    padding-right: 10px;
-     
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 230px;
+    height: 60px;
+    max-width: 100%;
 }
-
-.imges1{
-    padding: 20px;
+.respos1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
 }
 .tab{
     text-align: center;
-    color: white;
+    color: black;
     font-family:"vogue.ttf";
     padding: 20px;
 }
 
 .contac{
-    width: 218vh;
-height: 300px;
+    width: 100%;
+    height: 300px;
 }
+.bienvenido1{
+    text-align: center;
+    font-size:40px;
+    max-width: 100%;
 
-form{
-    width: 450px;
+}
+.iniciodesesion{
+    width: 500px;
     margin: auto;
-    background: #C02425;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
     border-radius: 10px;
+    border: 3px solid black;
+    font-family:"vogue.ttf";
+    max-width: 100%;
 }
 
 .form1{
-    color: black;
+    color: rgb(0, 0, 0);
     font-family:"vogue.ttf";
     text-align: center;
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
-    visibility: 10px;
+    visibility: 30px;
 }
+.contactar1{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/contactar.jpg);
 
+}
+.contactar{
+    max-width: 100%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+    border-radius: 30px;
+    background-image: url(../img/comentarios.jpg);
+}
+.hr6{
+    background-color: red;
+    height: 6px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bottonenv{
+    font-family:"vogue.ttf";
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
 .inp{
-    width: 100%;
+    width: 90%;
     margin-bottom: 30px;
-    padding: 5px;
+    margin-left: 25px;
     box-sizing: border-box;
+    border-radius: 5px;
     font-size: 15px;
 }
 
@@ -247,7 +324,7 @@ background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, F
 }
 
 .contacte{
-    width: 410px;
+    width: 100px;
     height: 150px;
     border-radius: 10px;
 }
@@ -267,34 +344,41 @@ background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, F
     height: 10px;
     color: white !important;
 }
-
-.pla1{
+.imgpla1{
+    width: 100%;
     height: 300px;
-    width: 1349px;
-    max-width: 100%;
-    max-height: 100%;
 }
+.pla1{
+    width: 100%;
+    height: 300px;
 
+}
 .pla2{
-    display: flex;
-    position: absolute;
-    padding-left: 150vh;
-    padding-top: 100px;
-    font-size: 250%;
-    color: #84F513;
+    text-align: center;
     font-family:"vogue.ttf";
+    font-size: 50px;
+    text-shadow: 0 0 8px rgb(22, 9, 8);
+    color: black;
     
 }
 
 .pla3{
-    background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+   border: 3px solid black;
+   margin: 60px;
+   border-radius: 30px;
+   box-shadow: 10px 10px 10px black;
+   background-color: rgb(217, 246, 255);
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+   width: 93%;
+   max-width: 100%;
 }
-
+.pla3:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 13px 20px black;
+}
 .pla4{
-    color: white;
+    color: black;
     text-align: justify;
     padding: 50px;
     font-size: 200%;
@@ -302,71 +386,84 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 }
 
 .pla5{
+    margin-top: 10px;
     color: #2F8DF7;
     text-align: center;
     font-family:"vogue.ttf";
 }
-
+.hr7{
+    margin: 30px;
+    width: 30%;
+    background-color: rgb(104, 160, 21);
+    height: 5px !important;
+}
 .pla6{
-    color: white;
+    color: black;
     text-align: justify;
     font-family:"vogue.ttf";
     font-size: 110%;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fotogen3{
+    width: 70vh;
+    height: 400px;
+    margin-right: 60px;
+    margin-left: 30px;
+    float: right;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 30px;
+}
+.plafoto2{
+    width: 100%;
+   height: 100%;
+   display: flex;
+    border-radius: 30px;
+}
+.fotogen1{
+    width: 60vh;
+    height: 550px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: right;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 30px;
+}
+.fotogen2{
+    width: 60vh;
+    height: 600px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: right;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 30px;
 }
 .plafoto{
-    width: 700px;
-    height: 450px;
-    max-width: 100%;
-    max-height: 100%;
-    float: right;
-    padding-right: 30px;
-    padding-left: 20px;
-    border-radius: 70px;
-
-}
-.pla9{
-    display: flex;
-    position: absolute;
-    padding-left: 50vh;
-    padding-top: 100px;
-    font-size: 250%;
-    color: #84F513;
-    font-family:"vogue.ttf";
-    
+    width: 100%;
+   height: 100%;
+   border-radius: 30px;
 }
 
 .plafoto1{
-    width: 700px;
-    height: 498px;
-    max-width: 100%;
-    max-height: 100%;
-    float: right;
-    padding-right: 30px;
-    padding-left: 20px;
-    border-radius: 70px;
-}
-.plafoto2{
-    width: 700px;
-    height: 350px;
-    max-width: 100%;
-    max-height: 100%;
-    float: right;
-    padding-right: 30px;
-    padding-left: 20px;
-    border-radius: 70px;
+   width: 100%;
+   height: 100%;
+   border-radius: 30px;
+   
 }
 .plafoto3{
-    width: 700px;
-    height: 320px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+   height: 100%;
+   display: flex;
+border-radius: 30px;
+}
+.fotogen4{
+    width: 70vh;
+    height: 400px;
+    margin-right: 60px;
+    margin-left: 30px;
     float: left;
-    padding-right: 30px;
-    padding-left: 20px;
-    border-radius: 70px;
-    display: flex;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 30px;
 }
 
 .div1{
@@ -468,4 +565,9 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 }
 .cerrar{
     margin-top: 80px;
+}
+
+.MPNA{
+    text-align: center;
+    font-family:"vogue.ttf";
 }

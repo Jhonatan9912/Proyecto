@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro</title>
+    <link rel="stylesheet" href=../css/estilos1.css>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../img/logo.png">
+</head>
+
+<body class="body11">
+    <div class="sidebar">
+        <div class="logotip">
+            <div class="logo_content">
+                <div class="logo">
+                    <b><div class="log_name">RETIRO</div></b>
+                </div>
+                <hr class="hr">
+            </div>
+        </div>
+        <ul class="nav_list">
+            <li><a href="Gestor de Inventario.html">
+                    <i class='bx bxl-xing'></i>
+                    <span class="links_name">Gestor de Activos</span>
+                </a>
+            </li>
+            <li><a href="Registro.html">
+                    <i class='bx bx-git-compare'></i>
+                    <span class="links_name">Registro</span>
+                </a>
+            </li>
+            <li><a href="Reportes.html">
+                    <i class='bx bxs-report'></i>
+                    <span class="links_name">Reportes</span>
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="contenido_perfil">
+            <div class="perfiles">
+                <div class="detalles_perfil">
+                    <img src="../img/login.png" alt="">
+                    <div class="Nombre_trabajo">
+                        <div class="Nombre">Jhonatan Mogollon Castillo</div>
+                        <div class="trabajo">Tecnico en sistemas</div>
+                    </div>
+                </div>
+                <a href="../index.html"><i class='bx bx-log-out' id="salir"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <header class="p-3 mb-3 border-bottom ul">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    </a>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <img src="../img/logo1.png" alt="" class="logo">
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input type="search" class="form-control" placeholder="Buscar" aria-label="Search">
+                    </form>
+
+                    <div class="dropdown text-end">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../img/login.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                            <li><a class="dropdown-item" href="../index.html">Cerrar Sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="form1">
+            <form class="row g-1 formulario1">
+                <h2 class="H2DU">INFORMACION DE USUARIO</h2>
+                <hr class="hrdu container">
+                <div class="col-md-3">
+                    <b><label for="Pnombre" class="form-label">Primer Nombre</label></b>
+                    <input type="text" class="form-control" id="Pnombre" placeholder="Ingrese su primer nombre"
+                        required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Snombre" class="form-label">Segundo Nombre</label></b>
+                    <input type="text" class="form-control" id="Snombre" placeholder="Ingrese su segundo nombre"
+                        required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Papellido" class="form-label">Primer Apellido</label></b>
+                    <input type="text" class="form-control" id="Papellido" placeholder="Ingrese su primer Apellido"
+                        required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Sapellido" class="form-label">Segundo Apellido</label></b>
+                    <input type="text" class="form-control" id="Sapellido" placeholder="Ingrese su segundo Apellido"
+                        required>
+                </div>
+
+                <div class="col-3">
+                    <b><label for="Cedula" class="form-label">Cedula</label></b>
+                    <input type="text" class="form-control" id="Cedula" placeholder="Ingrese su Numero de Cedula"
+                        required>
+                </div>
+                <div class="col-2">
+                    <b><label for="Piso" class="form-label">Piso</label></b>
+                    <input type="text" class="form-control" id="Piso" required>
+                </div>
+                <div class="col-1">
+                    <b><label for="Modulo" class="form-label">Modulo</label></b>
+                    <input type="text" class="form-control" id="Modulo" required>
+                </div>
+                <div class="col-3">
+                    <b><label for="Area" class="form-label">Area</label></b>
+                    <input type="text" class="form-control" id="Area" placeholder="Ingrese su area asignada" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Cargo" class="form-label">Cargo</label></b>
+                    <input type="text" class="form-control" id="Cargo" placeholder="Ingrese su Cargo asignado" required>
+                </div>
+                <div class="col-md-4">
+                    <b><label for="Sede" class="form-label">Sede</label></b>
+                    <select id="Sede" class="form-select" required>
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <hr class="hrdu container">
+                <h2 class="H2DU">INFORMACION DE EQUIPO</h2>
+                <hr class="hrdu container">
+                <div class="col-md-2">
+                    <b><label for="Tipo" class="form-label">Tipo</label></b>
+                    <select id="Tipo" class="form-select" required>
+                        <option selected>Choose...</option>
+                        <option>Portatil</option>
+                        <option>Monitor</option>
+                        <option>Teclado</option>
+                        <option>Mouse</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <b><label for="Marca" class="form-label">Marca</label></b>
+                    <input type="text" class="form-control" id="Marca" required>
+                </div>
+                <div class="col-md-2">
+                    <b><label for="Modelo" class="form-label">Modelo</label></b>
+                    <input type="text" class="form-control" id="Modelo" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Placa" class="form-label">Placa</label></b>
+                    <input type="text" class="form-control" id="Placa" required>
+                </div>
+
+                <div class="col-3">
+                    <b><label for="Serial" class="form-label">Serial</label></b>
+                    <input type="text" class="form-control" id="Serial" required>
+                </div>
+                <div class="botongen">
+                    <div class="botonent">
+                        <button type="button" class="btn btn-outline-success">Agregar</button>
+                    </div>
+                    <div class="botonent">
+                        <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-2">
+                    <b><label for="Tipo" class="form-label">Tipo</label></b>
+                    <select id="Tipo" class="form-select" required>
+                        <option selected>Choose...</option>
+                        <option>Portatil</option>
+                        <option>Monitor</option>
+                        <option>Teclado</option>
+                        <option>Mouse</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <b><label for="Marca" class="form-label">Marca</label></b>
+                    <input type="text" class="form-control" id="Marca" required>
+                </div>
+                <div class="col-md-2">
+                    <b><label for="Modelo" class="form-label">Modelo</label></b>
+                    <input type="text" class="form-control" id="Modelo" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Placa" class="form-label">Placa</label></b>
+                    <input type="text" class="form-control" id="Placa" required>
+                </div>
+
+                <div class="col-3">
+                    <b><label for="Serial" class="form-label">Serial</label></b>
+                    <input type="text" class="form-control" id="Serial" required>
+                </div>
+                <div class="botongen">
+                    <div class="botonent">
+                        <button type="button" class="btn btn-outline-success">Agregar</button>
+                    </div>
+                    <div class="botonent">
+                        <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-2">
+                    <b><label for="Tipo" class="form-label">Tipo</label></b>
+                    <select id="Tipo" class="form-select" required>
+                        <option selected>Choose...</option>
+                        <option>Portatil</option>
+                        <option>Monitor</option>
+                        <option>Teclado</option>
+                        <option>Mouse</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <b><label for="Marca" class="form-label">Marca</label></b>
+                    <input type="text" class="form-control" id="Marca" required>
+                </div>
+                <div class="col-md-2">
+                    <b><label for="Modelo" class="form-label">Modelo</label></b>
+                    <input type="text" class="form-control" id="Modelo" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Placa" class="form-label">Placa</label></b>
+                    <input type="text" class="form-control" id="Placa" required>
+                </div>
+                <div class="col-3">
+                    <b><label for="Serial" class="form-label">Serial</label></b>
+                    <input type="text" class="form-control" id="Serial" required>
+                </div>
+                <div class="botongen">
+                    <div class="botonent">
+                        <button type="button" class="btn btn-outline-success">Agregar</button>
+                    </div>
+                    <div class="botonent">
+                        <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                    </div>
+                </div>
+                <hr class="hrdu container">
+                <h2 class="H2DU">DETALLES DE EQUIPO</h2>
+                <hr class="hrdu container">
+                <div class="col-md-3">
+                    <b><label for="Procesador" class="form-label">Procesador</label></b>
+                    <input type="text" class="form-control" id="Procesador" required>
+                </div>
+
+                <div class="col-md-3">
+                    <b><label for="RAM" class="form-label">RAM</label></b>
+                    <input type="text" class="form-control" id="RAM" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="S.O" class="form-label">Sistema Operativo</label></b>
+                    <input type="text" class="form-control" id="S.O" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Disco" class="form-label">Disco Duro</label></b>
+                    <input type="text" class="form-control" id="Disco" required>
+                </div>
+                <div class="col-3">
+                    <b><label for="Nombre" class="form-label">Nombre de Equipo</label></b>
+                    <input type="text" class="form-control" id="Nombre" required>
+                </div>
+                <div class="col-md-3">
+                    <b><label for="Guaya" class="form-label">Guaya</label></b>
+                    <select id="Guaya" class="form-select" required>
+                        <option selected>Choose...</option>
+                        <option>SI</option>
+                        <option>NO</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <b><label for="IP" class="form-label">IP</label></b>
+                    <input type="text" class="form-control" id="IP" required>
+                </div>
+                <div class="col-3">
+                    <b><label for="MAC" class="form-label">MAC</label></b>
+                    <input type="text" class="form-control" id="MAC" required>
+                </div>
+                <hr class="hrdu container">
+                <h2 class="H2DU">VALIDACION DE ELEMENTOS</h2>
+                <b>
+                    <p>Responda las siguientes Preguntas:</p>
+                </b>
+                <div class="tablageneral1">
+                    <table class="Tablaretiro">
+                        <thead class="borders">
+                            <tr class="">
+                                <th scope="col" class="borders" >PREGUNTA</th>
+                                <th scope="col" class="borders" >RESPUESTA</th>
+                                <th scope="col" class="borders" >Observaciones</th>
+                            </tr>
+                        </thead>
+                        <tbody class="borders">
+                            <tr>
+                                <td class="borders" >Los elementos entregados se encuentran en buen estado?</td>
+                                <td scope="row" class="borders1" ><select name="respuesta">
+                                        <option value="volvo">SI</option>
+                                        <option value="saab">NO</option>
+                                    </select>
+                                <td class="borders" ><textarea type="text" class="form-control" id="Nombre" 
+                                        placeholder="Si su respuesta es NO, por favor indiquenos el motivo de su respuesta."
+                                        required ></textarea></td>
+                            </tr>
+                            <tr>
+                                <td class="borders" >Los elementos entregados se entregaron segun el registro de activos?</td>
+                                <td scope="row" class="borders1">
+                                    <select name="respuesta">
+                                        <option value="volvo">SI</option>
+                                        <option value="saab">NO</option>
+                                    </select>
+                                </td>
+                                <td class="borders" ><textarea type="text" class="form-control" id="Nombre"
+                                        placeholder="Si su respuesta es NO, por favor indiquenos el motivo de su respuesta."
+                                        required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td class="borders" >el equipo requiere algun tipo de backup?</td>
+                                <td scope="row" class="borders1" >
+                                    <select name="respuesta">
+                                        <option value="volvo">SI</option>
+                                        <option value="saab">NO</option>
+                                    </select>
+                                </td>
+                                <td class="borders" ><textarea type="text" class="form-control" id="Nombre"
+                                        placeholder="Si su respuesta es SI, por favor indiquenos el nombre del funcionario a traspasar el backup."
+                                        required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td class="borders" >El funcionario se retira de la compañia?</td>
+                                <td scope="row" class="borders1" >
+                                    <select name="respuesta">
+                                        <option value="volvo">SI</option>
+                                        <option value="saab">NO</option>
+                                    </select>
+                                </td>
+                                <td class="borders" ><textarea type="text" class="form-control" id="Nombre"
+                                        placeholder="Si su repuesta es NO, indique el motivo de devolucion del equipo"
+                                        required></textarea></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <hr class="hrdu container">
+                <h2 class="H2DU">FIRMAS DE APROBACION</h2>
+                <hr class="hrdu container">
+                <div class="col-4 intform">
+                    <b><label for="Nombre" class="form-label">Nombre de Usuario</label></b>
+                    <input type="text" class="form-control" id="Nombre" required>
+                    <b><label for="Cedula" class="form-label">Cedula</label></b>
+                    <input type="text" class="form-control" id="Cedula" required>
+                    <b><label for="Firma" class="form-label">Firma</label></b>
+                    <input type="text" class="form-control firma1" id="Firma" required>
+                </div>
+                <div class="col-4 intform">
+                    <b><label for="Nombre" class="form-label">Nombre de Usuario</label></b>
+                    <input type="text" class="form-control" id="Nombre" required>
+                    <b><label for="Nombre" class="form-label">Cedula</label></b>
+                    <input type="text" class="form-control" id="Nombre" required>
+                    <b><label for="Firma" class="form-label">Firma</label></b>
+                    <input type="text" class="form-control firma1" id="Firma" required>
+                </div>
+                <div class="documentos2 container">
+                    <div>
+                        <input type="reset" class="restablece">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" class="send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
